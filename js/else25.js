@@ -2,7 +2,6 @@
 console.log('else25.js');
 
 
-
 // let isLoggedIn = true;
 // let message = `You are currently${isLoggedIn ? '' : 'not'} logged to the system.`
 
