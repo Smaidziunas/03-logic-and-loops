@@ -7,8 +7,15 @@
 - ### OR || and && Operators
   [main.js](js/main.js)
 - ### look if it belongs to group and return to console
-
   [md5.js](js/md5.js)
+- ### RANDOM NUMBER FUNCTION to get interval:
+
+<!-- function randomIntFromInterval(min, max) { // min and max included
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+const rndInt = randomIntFromInterval(1, 6)
+console.log(rndInt) -->
 
 - ! ("Bang");
 - !! konversija i boolean;
