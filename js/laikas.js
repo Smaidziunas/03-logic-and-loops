@@ -1,5 +1,5 @@
-'use strict';
-console.log('laikas.js');
+  'use strict';
+  console.log('laikas.js');
 
 
 /*
@@ -15,14 +15,14 @@ programavime, reikia aprasyti atskirai
 */
 
 
-let laikas = 10;
+let laikas = 5;
 
 if (laikas >= 6 && laikas <= 12) {
   console.log('Labas Rytas!');
-} else if(laikas >= 12 && laikas <= 18) {
+} else if (laikas > 12 && laikas <= 18) {
   console.log('Laba diena!');
-} else if(laikas >= 19 && laikas <= 23) {
-  console.log('Labas vakaras');
-} else {
-  console.log('geros nakties!');
+} else if (laikas > 19 && laikas <= 23) {
+  console.log('Labas vakaras!');
+} else if (laikas >=0 && laikas <6 || laikas === 24) {
+  console.log('Labanakt!');
 }
